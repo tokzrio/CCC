@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crown City Cycles - Honda 3S Dealer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#" class="logo">Crown City Cycles</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>An Authorized Honda 3S Dealer</h1>
+                <p>Sales, Service, and Spare Parts all in one place. Your journey starts here.</p>
+                <a href="#products" class="cta-button">Explore Models</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="profile">
+                    <h3>Company Profile</h3>
+                    <p>
+                        Crown City Cycles is a premier, authorized Honda 3S dealership proudly serving Koronadal City and the wider SOCCSKSARGEN region. Since our establishment, we've been committed to delivering the complete Honda experience, grounded in quality, reliability, and unparalleled customer service.
+                    </p>
+                </div>
+                <div class="mission-vision-container">
+                    <div class="info-box">
+                        <h3>Our Mission</h3>
+                        <p>To provide every customer with exceptional value and a seamless ownership experience, from purchasing their dream Honda motorcycle to maintaining it with genuine parts and expert service.</p>
+                    </div>
+                    <div class="info-box">
+                        <h3>Our Vision</h3>
+                        <p>To be the most trusted and customer-centric motorcycle dealership in the region, fostering a community of passionate riders and setting the standard for excellence in the industry.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products">
+            <h2>Our Motorcycle Lineup</h2>
+            <p>Discover our wide range of the latest Honda motorcycles.</p>
+            <div class="product-gallery">
+                <a href="#">
+                    <img src="images/CLICK-125i-SE-3.jpg" alt="Honda CBR150R">
+                    <div class="product-label">Click 125</div>
+                </a>
+                <a href="#">
+                    <img src="images/BEAT-110-PREMIUM-1.jpg" alt="Honda Click 125">
+                    <div class="product-label">Beat 110</div>
+                </a>
+                <a href="#">
+                    <img src="images/CLICK-160-3.jpg" alt="Honda PCX160">
+                    <div class="product-label">Click 160</div>
+                </a>
+                <a href="#">
+                    <img src="images/GTR-1.jpg" alt="Honda ADV160">
+                    <div class="product-label">GTR</div>
+                </a>
+                <a href="#">
+                    <img src="images/PCX3-1.jpg" alt="Honda CRF150L">
+                    <div class="product-label">PCX</div>
+                </a>
+                <a href="#">
+                    <img src="images/giorno.jpg" alt="Honda BeAT">
+                    <div class="product-label">Giorno</div>
+                </a>
+                <a href="#">
+                    <img src="images/winnerx.jpg" alt="Honda XR150L">
+                    <div class="product-label">Winner X</div>
+                </a>
+                <a href="#">
+                    <img src="images/xr150.jpg" alt="Honda TMX125 Alpha">
+                    <div class="product-label">XR 150L</div>
+                </a>
+                <a href="#">
+                    <img src="images/xrm125 ds fi.jpg" alt="Honda BeAT">
+                    <div class="product-label">XRM 125 DS Fi</div>
+                </a>
+                <a href="#">
+                    <img src="images/XRM125-DSX.jpg" alt="Honda XR150L">
+                    <div class="product-label">XRM 125 DSX</div>
+                </a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <p>We're here to help! Visit us or send us a message with any questions.</p>
+            <div class="contact-container">
+                <div class="contact-details">
+                    <h3>Contact Information</h3>
+                    <p><strong>Location:</strong> National Highway, Koronadal City, South Cotabato</p>
+                    <p><strong>Phone:</strong> (083) 228-XXXX</p>
+                    <p><strong>Email:</strong> <a href="mailto:sales@crowncitycycles.ph">sales@crowncitycycles.ph</a></p>
+                </div>
+                <form action="#" method="post" class="inquiry-form">
+                    <h3>Send us an Inquiry</h3>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Juan dela Cruz" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="juan.delacruz@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="inquiry_type">Reason for Inquiry</label>
+                        <select id="inquiry_type" name="inquiry_type">
+                            <option value="sales">Vehicle Sales</option>
+                            <option value="service">Motorcycle Service</option>
+                            <option value="parts">Spare Parts</option>
+                            <option value="general">General Question</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Crown City Cycles. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
